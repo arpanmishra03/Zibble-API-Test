@@ -1,0 +1,43 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .modal-login {
+    width: 410px !important;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+.modal-login {
+  width: 100%;
+  margin-top: 85px;
+}
+
+// Display Classes
+.none {
+  display: none;
+}
+
+// turn off the number spinner globally
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// login popup css
+#login-otpInput input {
+  text-align: center;
+}
